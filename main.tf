@@ -25,7 +25,7 @@ module "blog_vpc" {
 
   tags = {
     Terraform = "true"
-    Environment = var.environmnet.name
+    Environment = var.environment.name
   }
 }
 
